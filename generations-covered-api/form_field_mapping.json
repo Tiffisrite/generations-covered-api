@@ -1,0 +1,1058 @@
+{
+  "version": "1.0",
+  "created": "2026-10-10",
+  "description": "Form field mapping for Piedmont, Emory, and Grady Financial Assistance Applications. Used by the app to pre-fill the generated PDFs.",
+  "piedmont": {
+    "application_pdf": "Piedmont_Financial_Assistance_Application_Fillable.pdf",
+    "total_fields": 82,
+    "sections": {
+      "applicant_information": {
+        "date_of_service": {
+          "type": "text",
+          "label": "Date of Service (Past or Future)",
+          "persona_key": "date_of_service"
+        },
+        "facility": {
+          "type": "text",
+          "label": "Facility",
+          "persona_key": "facility"
+        },
+        "patient_full_name": {
+          "type": "text",
+          "label": "Patient Full Name",
+          "persona_key": "patient_full_name"
+        },
+        "patient_ssn": {
+          "type": "text",
+          "label": "Social Security #",
+          "persona_key": "patient_ssn"
+        },
+        "dob": {
+          "type": "text",
+          "label": "Date of Birth",
+          "persona_key": "dob"
+        },
+        "physical_address": {
+          "type": "text",
+          "label": "Physical Address",
+          "persona_key": "physical_address"
+        },
+        "city": {
+          "type": "text",
+          "label": "City",
+          "persona_key": "city"
+        },
+        "state": {
+          "type": "text",
+          "label": "State",
+          "persona_key": "state"
+        },
+        "zip": {
+          "type": "text",
+          "label": "Zip",
+          "persona_key": "zip"
+        },
+        "mailing_address": {
+          "type": "text",
+          "label": "Mailing Address",
+          "persona_key": "mailing_address"
+        },
+        "mrn": {
+          "type": "text",
+          "label": "Medical Record Number",
+          "persona_key": "mrn"
+        },
+        "phone": {
+          "type": "text",
+          "label": "Phone Number",
+          "persona_key": "phone"
+        },
+        "completing_name": {
+          "type": "text",
+          "label": "Name of Person Completing Application",
+          "persona_key": "completing_name"
+        },
+        "relationship": {
+          "type": "text",
+          "label": "Relationship to Patient",
+          "persona_key": "relationship"
+        }
+      },
+      "household_members": {
+        "description": "4 rows \u00d7 7 columns (Name, DOB, Age, Relation, Occupation, SSN, Annual Income) + total",
+        "hh_0_0": {
+          "type": "text",
+          "label": "HH Row 1 Name",
+          "persona_key": "hh[0].name"
+        },
+        "hh_0_1": {
+          "type": "text",
+          "label": "HH Row 1 DOB",
+          "persona_key": "hh[0].dob"
+        },
+        "hh_0_2": {
+          "type": "text",
+          "label": "HH Row 1 Age",
+          "persona_key": "hh[0].age"
+        },
+        "hh_0_3": {
+          "type": "text",
+          "label": "HH Row 1 Relation",
+          "persona_key": "hh[0].relation"
+        },
+        "hh_0_4": {
+          "type": "text",
+          "label": "HH Row 1 Occupation",
+          "persona_key": "hh[0].occupation"
+        },
+        "hh_0_5": {
+          "type": "text",
+          "label": "HH Row 1 SSN",
+          "persona_key": "hh[0].ssn"
+        },
+        "hh_0_6": {
+          "type": "text",
+          "label": "HH Row 1 Annual Income",
+          "persona_key": "hh[0].annual_income"
+        },
+        "hh_1_0": {
+          "type": "text",
+          "label": "HH Row 2 Name",
+          "persona_key": "hh[1].name"
+        },
+        "hh_1_1": {
+          "type": "text",
+          "label": "HH Row 2 DOB",
+          "persona_key": "hh[1].dob"
+        },
+        "hh_1_2": {
+          "type": "text",
+          "label": "HH Row 2 Age",
+          "persona_key": "hh[1].age"
+        },
+        "hh_1_3": {
+          "type": "text",
+          "label": "HH Row 2 Relation",
+          "persona_key": "hh[1].relation"
+        },
+        "hh_1_4": {
+          "type": "text",
+          "label": "HH Row 2 Occupation",
+          "persona_key": "hh[1].occupation"
+        },
+        "hh_1_5": {
+          "type": "text",
+          "label": "HH Row 2 SSN",
+          "persona_key": "hh[1].ssn"
+        },
+        "hh_1_6": {
+          "type": "text",
+          "label": "HH Row 2 Annual Income",
+          "persona_key": "hh[1].annual_income"
+        },
+        "hh_2_0": {
+          "type": "text",
+          "label": "HH Row 3 Name",
+          "persona_key": "hh[2].name"
+        },
+        "hh_2_1": {
+          "type": "text",
+          "label": "HH Row 3 DOB",
+          "persona_key": "hh[2].dob"
+        },
+        "hh_2_2": {
+          "type": "text",
+          "label": "HH Row 3 Age",
+          "persona_key": "hh[2].age"
+        },
+        "hh_2_3": {
+          "type": "text",
+          "label": "HH Row 3 Relation",
+          "persona_key": "hh[2].relation"
+        },
+        "hh_2_4": {
+          "type": "text",
+          "label": "HH Row 3 Occupation",
+          "persona_key": "hh[2].occupation"
+        },
+        "hh_2_5": {
+          "type": "text",
+          "label": "HH Row 3 SSN",
+          "persona_key": "hh[2].ssn"
+        },
+        "hh_2_6": {
+          "type": "text",
+          "label": "HH Row 3 Annual Income",
+          "persona_key": "hh[2].annual_income"
+        },
+        "hh_3_0": {
+          "type": "text",
+          "label": "HH Row 4 Name",
+          "persona_key": "hh[3].name"
+        },
+        "hh_3_1": {
+          "type": "text",
+          "label": "HH Row 4 DOB",
+          "persona_key": "hh[3].dob"
+        },
+        "hh_3_2": {
+          "type": "text",
+          "label": "HH Row 4 Age",
+          "persona_key": "hh[3].age"
+        },
+        "hh_3_3": {
+          "type": "text",
+          "label": "HH Row 4 Relation",
+          "persona_key": "hh[3].relation"
+        },
+        "hh_3_4": {
+          "type": "text",
+          "label": "HH Row 4 Occupation",
+          "persona_key": "hh[3].occupation"
+        },
+        "hh_3_5": {
+          "type": "text",
+          "label": "HH Row 4 SSN",
+          "persona_key": "hh[3].ssn"
+        },
+        "hh_3_6": {
+          "type": "text",
+          "label": "HH Row 4 Annual Income",
+          "persona_key": "hh[3].annual_income"
+        },
+        "hh_total_income": {
+          "type": "text",
+          "label": "TOTAL Annual Income",
+          "persona_key": "total_annual_income"
+        }
+      },
+      "sources_of_income": {
+        "income": {
+          "type": "text",
+          "label": "Income",
+          "persona_key": "income"
+        },
+        "ss_income": {
+          "type": "text",
+          "label": "Social Security",
+          "persona_key": "ss_income"
+        },
+        "other_income": {
+          "type": "text",
+          "label": "Other Income/Alimony/Investments/Retirement",
+          "persona_key": "other_income"
+        },
+        "total_income": {
+          "type": "text",
+          "label": "Total Income",
+          "persona_key": "total_income"
+        },
+        "rent": {
+          "type": "text",
+          "label": "Rent Amount",
+          "persona_key": "rent"
+        },
+        "mortgage": {
+          "type": "text",
+          "label": "Mortgage Amount",
+          "persona_key": "mortgage"
+        },
+        "401k": {
+          "type": "text",
+          "label": "401K/IRA Balance",
+          "persona_key": "retirement_balance"
+        },
+        "savings": {
+          "type": "text",
+          "label": "Savings Account Balance",
+          "persona_key": "savings"
+        },
+        "medicaid_vendor": {
+          "type": "text",
+          "label": "Medicaid Vendor Verification",
+          "persona_key": null
+        },
+        "support_description": {
+          "type": "text",
+          "label": "If no income how are you supporting yourself?",
+          "persona_key": "support_description"
+        }
+      },
+      "other_coverage_questions": {
+        "has_insurance_yes": {
+          "type": "checkbox",
+          "label": "Does the patient have health insurance? Yes",
+          "persona_key": "has_insurance",
+          "checked_when": true
+        },
+        "has_insurance_no": {
+          "type": "checkbox",
+          "label": "Does the patient have health insurance? No",
+          "persona_key": "has_insurance",
+          "checked_when": false
+        },
+        "third_party_yes": {
+          "type": "checkbox",
+          "label": "Third party liability? Yes",
+          "persona_key": "third_party",
+          "checked_when": true
+        },
+        "third_party_no": {
+          "type": "checkbox",
+          "label": "Third party liability? No",
+          "persona_key": "third_party",
+          "checked_when": false
+        },
+        "has_medicaid_yes": {
+          "type": "checkbox",
+          "label": "Does the patient have Medicaid? Yes",
+          "persona_key": "has_medicaid",
+          "checked_when": true
+        },
+        "has_medicaid_no": {
+          "type": "checkbox",
+          "label": "Does the patient have Medicaid? No",
+          "persona_key": "has_medicaid",
+          "checked_when": false
+        },
+        "applied_medicaid_yes": {
+          "type": "checkbox",
+          "label": "Has the patient applied for Medicaid? Yes",
+          "persona_key": "applied_medicaid",
+          "checked_when": true
+        },
+        "applied_medicaid_no": {
+          "type": "checkbox",
+          "label": "Has the patient applied for Medicaid? No",
+          "persona_key": "applied_medicaid",
+          "checked_when": false
+        },
+        "pregnant_yes": {
+          "type": "checkbox",
+          "label": "Are you Pregnant? Yes",
+          "persona_key": "pregnant",
+          "checked_when": true
+        },
+        "pregnant_no": {
+          "type": "checkbox",
+          "label": "Are you Pregnant? No",
+          "persona_key": "pregnant",
+          "checked_when": false
+        },
+        "ss_disability_yes": {
+          "type": "checkbox",
+          "label": "Are you on Social Security Disability? Yes",
+          "persona_key": "ss_disability",
+          "checked_when": true
+        },
+        "ss_disability_no": {
+          "type": "checkbox",
+          "label": "Are you on Social Security Disability? No",
+          "persona_key": "ss_disability",
+          "checked_when": false
+        },
+        "over_65_yes": {
+          "type": "checkbox",
+          "label": "Are you over 65? Yes",
+          "persona_key": "over_65",
+          "checked_when": true
+        },
+        "over_65_no": {
+          "type": "checkbox",
+          "label": "Are you over 65? No",
+          "persona_key": "over_65",
+          "checked_when": false
+        },
+        "under_19_yes": {
+          "type": "checkbox",
+          "label": "Are you 19 or younger? Yes",
+          "persona_key": "under_19",
+          "checked_when": true
+        },
+        "under_19_no": {
+          "type": "checkbox",
+          "label": "Are you 19 or younger? No",
+          "persona_key": "under_19",
+          "checked_when": false
+        },
+        "custodial_unemployed_yes": {
+          "type": "checkbox",
+          "label": "Custodial parent and unemployed? Yes",
+          "persona_key": "custodial_unemployed",
+          "checked_when": true
+        },
+        "custodial_unemployed_no": {
+          "type": "checkbox",
+          "label": "Custodial parent and unemployed? No",
+          "persona_key": "custodial_unemployed",
+          "checked_when": false
+        },
+        "on_visa_yes": {
+          "type": "checkbox",
+          "label": "Are you here on a visa? Yes",
+          "persona_key": "on_visa",
+          "checked_when": true
+        },
+        "on_visa_no": {
+          "type": "checkbox",
+          "label": "Are you here on a visa? No",
+          "persona_key": "on_visa",
+          "checked_when": false
+        },
+        "visa_info": {
+          "type": "text",
+          "label": "Visa ID#/Country/Date to return",
+          "persona_key": "visa_info"
+        }
+      },
+      "signatures": {
+        "applicant_signature": {
+          "type": "text",
+          "label": "Applicant Signature",
+          "persona_key": null
+        },
+        "applicant_name_print": {
+          "type": "text",
+          "label": "Applicant Name (PRINT)",
+          "persona_key": "patient_full_name"
+        },
+        "applicant_date": {
+          "type": "text",
+          "label": "Date",
+          "persona_key": "application_date"
+        },
+        "applicant_time": {
+          "type": "text",
+          "label": "Time",
+          "persona_key": null
+        },
+        "witness_signature": {
+          "type": "text",
+          "label": "Witness Signature",
+          "persona_key": null
+        },
+        "witness_name_print": {
+          "type": "text",
+          "label": "Witness Name (PRINT)",
+          "persona_key": null
+        },
+        "witness_date": {
+          "type": "text",
+          "label": "Date",
+          "persona_key": null
+        },
+        "witness_time": {
+          "type": "text",
+          "label": "Time",
+          "persona_key": null
+        }
+      }
+    }
+  },
+  "emory": {
+    "application_pdf": "Emory_Financial_Assistance_Application_Fillable.pdf",
+    "total_fields": 50,
+    "sections": {
+      "patient_info": {
+        "patient_name": {
+          "type": "text",
+          "label": "Patient's Name",
+          "persona_key": "patient_full_name"
+        },
+        "patient_ssn": {
+          "type": "text",
+          "label": "SS#",
+          "persona_key": "patient_ssn"
+        },
+        "guarantor_name": {
+          "type": "text",
+          "label": "Guarantor's Name (if different)",
+          "persona_key": "guarantor_name"
+        },
+        "guarantor_ssn": {
+          "type": "text",
+          "label": "Guarantor SS#",
+          "persona_key": "guarantor_ssn"
+        },
+        "street_address": {
+          "type": "text",
+          "label": "Street Address",
+          "persona_key": "physical_address"
+        },
+        "city": {
+          "type": "text",
+          "label": "City",
+          "persona_key": "city"
+        },
+        "state": {
+          "type": "text",
+          "label": "State",
+          "persona_key": "state"
+        },
+        "zip": {
+          "type": "text",
+          "label": "Zip",
+          "persona_key": "zip"
+        },
+        "phone": {
+          "type": "text",
+          "label": "Phone",
+          "persona_key": "phone"
+        },
+        "employer": {
+          "type": "text",
+          "label": "Employer",
+          "persona_key": "employer"
+        },
+        "years_employed": {
+          "type": "text",
+          "label": "Years Employed",
+          "persona_key": "years_employed"
+        },
+        "married_yes": {
+          "type": "checkbox",
+          "label": "Are you married? Yes",
+          "persona_key": "married",
+          "checked_when": true
+        },
+        "married_no": {
+          "type": "checkbox",
+          "label": "Are you married? No",
+          "persona_key": "married",
+          "checked_when": false
+        },
+        "spouse_name": {
+          "type": "text",
+          "label": "Spouse's Name",
+          "persona_key": "spouse_name"
+        },
+        "num_dependents": {
+          "type": "text",
+          "label": "Number of Dependents (include yourself)",
+          "persona_key": "num_dependents"
+        },
+        "ages": {
+          "type": "text",
+          "label": "Ages",
+          "persona_key": "dependent_ages"
+        },
+        "num_household": {
+          "type": "text",
+          "label": "Number of Household members",
+          "persona_key": "household_size"
+        }
+      },
+      "family_income": {
+        "salary_hourly": {
+          "type": "checkbox",
+          "label": "Salary - Hourly",
+          "persona_key": "salary_frequency",
+          "checked_when": "hourly"
+        },
+        "salary_monthly": {
+          "type": "checkbox",
+          "label": "Salary - Monthly",
+          "persona_key": "salary_frequency",
+          "checked_when": "monthly"
+        },
+        "salary_yearly": {
+          "type": "checkbox",
+          "label": "Salary - Yearly",
+          "persona_key": "salary_frequency",
+          "checked_when": "yearly"
+        },
+        "salary_patient": {
+          "type": "text",
+          "label": "Salary - Patient",
+          "persona_key": "salary_patient"
+        },
+        "salary_spouse": {
+          "type": "text",
+          "label": "Salary - Spouse/Other",
+          "persona_key": "salary_spouse"
+        },
+        "unemployment_patient": {
+          "type": "text",
+          "label": "Unemployment - Patient",
+          "persona_key": "unemployment_patient"
+        },
+        "unemployment_spouse": {
+          "type": "text",
+          "label": "Unemployment - Spouse",
+          "persona_key": "unemployment_spouse"
+        },
+        "ss_disability_patient": {
+          "type": "text",
+          "label": "Social Security or Disability - Patient",
+          "persona_key": "ss_disability_patient"
+        },
+        "ss_disability_spouse": {
+          "type": "text",
+          "label": "Social Security or Disability - Spouse",
+          "persona_key": "ss_disability_spouse"
+        },
+        "afdc_patient": {
+          "type": "text",
+          "label": "AFDC - Patient",
+          "persona_key": "afdc_patient"
+        },
+        "afdc_spouse": {
+          "type": "text",
+          "label": "AFDC - Spouse",
+          "persona_key": "afdc_spouse"
+        },
+        "child_support_patient": {
+          "type": "text",
+          "label": "Child Support - Patient",
+          "persona_key": "child_support_patient"
+        },
+        "child_support_spouse": {
+          "type": "text",
+          "label": "Child Support - Spouse",
+          "persona_key": "child_support_spouse"
+        },
+        "savings_patient": {
+          "type": "text",
+          "label": "Savings Account - Patient",
+          "persona_key": "savings_patient"
+        },
+        "savings_spouse": {
+          "type": "text",
+          "label": "Savings Account - Spouse",
+          "persona_key": "savings_spouse"
+        },
+        "checking_patient": {
+          "type": "text",
+          "label": "Checking Account - Patient",
+          "persona_key": "checking_patient"
+        },
+        "checking_spouse": {
+          "type": "text",
+          "label": "Checking Account - Spouse",
+          "persona_key": "checking_spouse"
+        },
+        "other_patient": {
+          "type": "text",
+          "label": "Other - Patient",
+          "persona_key": "other_patient"
+        },
+        "other_spouse": {
+          "type": "text",
+          "label": "Other - Spouse",
+          "persona_key": "other_spouse"
+        }
+      },
+      "documentation_checklist": {
+        "doc_Pay_Stubs_for_the_la": {
+          "type": "checkbox",
+          "label": "Pay Stubs for the last 4 weeks",
+          "persona_key": null
+        },
+        "doc_Most_recent_tax_retu": {
+          "type": "checkbox",
+          "label": "Most recent tax return",
+          "persona_key": null
+        },
+        "doc_Most_recent_IRS_Form": {
+          "type": "checkbox",
+          "label": "Most recent IRS Form 1040",
+          "persona_key": null
+        },
+        "doc_IRS_W-2_Form_(issued": {
+          "type": "checkbox",
+          "label": "IRS W-2 Form",
+          "persona_key": null
+        },
+        "doc_Income_Award_Letter;": {
+          "type": "checkbox",
+          "label": "Income Award Letter",
+          "persona_key": null
+        },
+        "doc_Unemployment_compens": {
+          "type": "checkbox",
+          "label": "Unemployment compensation denial letter",
+          "persona_key": null
+        },
+        "doc_Most_recent_two_mont": {
+          "type": "checkbox",
+          "label": "Most recent two months of bank statements",
+          "persona_key": null
+        },
+        "doc_Documentation_or_an_": {
+          "type": "checkbox",
+          "label": "Documentation or attestation of other income",
+          "persona_key": null
+        }
+      },
+      "signatures": {
+        "patient_signature": {
+          "type": "text",
+          "label": "Patient's/Guarantor's Signature",
+          "persona_key": null
+        },
+        "patient_date": {
+          "type": "text",
+          "label": "Date",
+          "persona_key": "application_date"
+        },
+        "patient_print_name": {
+          "type": "text",
+          "label": "Please print full name",
+          "persona_key": "patient_full_name"
+        },
+        "spouse_signature": {
+          "type": "text",
+          "label": "Spouse's Signature (if applicable)",
+          "persona_key": null
+        },
+        "spouse_date": {
+          "type": "text",
+          "label": "Date",
+          "persona_key": null
+        },
+        "spouse_print_name": {
+          "type": "text",
+          "label": "Please print full name",
+          "persona_key": "spouse_name"
+        }
+      }
+    }
+  },
+  "grady": {
+    "application_pdf": "Grady_Financial_Assistance_Application_Fillable.pdf",
+    "total_fields": 60,
+    "sections": {
+      "header_info": {
+        "date": {
+          "type": "text",
+          "label": "DATE",
+          "persona_key": "application_date"
+        },
+        "mrn": {
+          "type": "text",
+          "label": "MR#",
+          "persona_key": "mrn"
+        },
+        "ssn": {
+          "type": "text",
+          "label": "SOCIAL SECURITY #",
+          "persona_key": "patient_ssn"
+        },
+        "full_name": {
+          "type": "text",
+          "label": "NAME (LAST, FIRST, MIDDLE)",
+          "persona_key": "patient_full_name"
+        }
+      },
+      "address": {
+        "addr_number": {
+          "type": "text",
+          "label": "ADDRESS (NUMBER)",
+          "persona_key": "addr_number"
+        },
+        "addr_street": {
+          "type": "text",
+          "label": "ADDRESS (STREET)",
+          "persona_key": "addr_street"
+        },
+        "addr_apt": {
+          "type": "text",
+          "label": "ADDRESS (APT. #)",
+          "persona_key": "addr_apt"
+        },
+        "city": {
+          "type": "text",
+          "label": "CITY",
+          "persona_key": "city"
+        },
+        "county": {
+          "type": "text",
+          "label": "COUNTY",
+          "persona_key": "county"
+        },
+        "state": {
+          "type": "text",
+          "label": "STATE",
+          "persona_key": "state"
+        },
+        "zip": {
+          "type": "text",
+          "label": "ZIP",
+          "persona_key": "zip"
+        },
+        "home_phone": {
+          "type": "text",
+          "label": "HOME TELEPHONE #",
+          "persona_key": "home_phone"
+        },
+        "work_phone": {
+          "type": "text",
+          "label": "WORK TELEPHONE #",
+          "persona_key": "work_phone"
+        }
+      },
+      "demographics": {
+        "sex": {
+          "type": "text",
+          "label": "SEX",
+          "persona_key": "sex"
+        },
+        "dob": {
+          "type": "text",
+          "label": "DATE OF BIRTH",
+          "persona_key": "dob"
+        },
+        "place_of_birth": {
+          "type": "text",
+          "label": "PLACE OF BIRTH",
+          "persona_key": "place_of_birth"
+        },
+        "race": {
+          "type": "text",
+          "label": "RACE",
+          "persona_key": "race"
+        },
+        "religion": {
+          "type": "text",
+          "label": "RELIGION",
+          "persona_key": "religion"
+        },
+        "primary_language": {
+          "type": "text",
+          "label": "PRIMARY LANGUAGE",
+          "persona_key": "primary_language"
+        },
+        "ms_never": {
+          "type": "checkbox",
+          "label": "MARITAL STATUS - NEVER MARRIED",
+          "persona_key": "marital_status",
+          "checked_when": "never"
+        },
+        "ms_married": {
+          "type": "checkbox",
+          "label": "MARITAL STATUS - MARRIED",
+          "persona_key": "marital_status",
+          "checked_when": "married"
+        },
+        "ms_separated": {
+          "type": "checkbox",
+          "label": "MARITAL STATUS - SEPARATED",
+          "persona_key": "marital_status",
+          "checked_when": "separated"
+        },
+        "ms_divorced": {
+          "type": "checkbox",
+          "label": "MARITAL STATUS - DIVORCED",
+          "persona_key": "marital_status",
+          "checked_when": "divorced"
+        },
+        "ms_widowed": {
+          "type": "checkbox",
+          "label": "MARITAL STATUS - WIDOWED",
+          "persona_key": "marital_status",
+          "checked_when": "widowed"
+        },
+        "prev_yes": {
+          "type": "checkbox",
+          "label": "HAVE YOU BEEN TREATED PREVIOUSLY AT GRADY? Yes",
+          "persona_key": "prev_treated",
+          "checked_when": true
+        },
+        "prev_no": {
+          "type": "checkbox",
+          "label": "HAVE YOU BEEN TREATED PREVIOUSLY AT GRADY? No",
+          "persona_key": "prev_treated",
+          "checked_when": false
+        },
+        "mothers_maiden": {
+          "type": "text",
+          "label": "IF No, MOTHER'S MAIDEN NAME",
+          "persona_key": "mothers_maiden"
+        }
+      },
+      "employment_insurance": {
+        "employer_name": {
+          "type": "text",
+          "label": "EMPLOYER - COMPANY NAME",
+          "persona_key": "employer"
+        },
+        "employer_addr": {
+          "type": "text",
+          "label": "EMPLOYER - ADDRESS",
+          "persona_key": "employer_addr"
+        },
+        "employer_phone": {
+          "type": "text",
+          "label": "EMPLOYER - PHONE #",
+          "persona_key": "employer_phone"
+        },
+        "ins_company": {
+          "type": "text",
+          "label": "INSURANCE COMPANY (NAME)",
+          "persona_key": "ins_company"
+        },
+        "ins_group": {
+          "type": "text",
+          "label": "INSURANCE GROUP #",
+          "persona_key": "ins_group"
+        },
+        "ins_policy": {
+          "type": "text",
+          "label": "INSURANCE POLICY #",
+          "persona_key": "ins_policy"
+        },
+        "other_insurance": {
+          "type": "text",
+          "label": "OTHER INSURANCE COVERAGE",
+          "persona_key": "other_insurance"
+        },
+        "spouse_ins_yes": {
+          "type": "checkbox",
+          "label": "SPOUSE'S HOSPITAL / MEDICAL INSURANCE - Yes",
+          "persona_key": "spouse_has_insurance",
+          "checked_when": true
+        },
+        "spouse_ins_no": {
+          "type": "checkbox",
+          "label": "SPOUSE'S HOSPITAL / MEDICAL INSURANCE - No",
+          "persona_key": "spouse_has_insurance",
+          "checked_when": false
+        },
+        "spouse_ins_company": {
+          "type": "text",
+          "label": "SPOUSE'S INSURANCE COMPANY",
+          "persona_key": "spouse_ins_company"
+        }
+      },
+      "page2_coverage_dependents": {
+        "medicare": {
+          "type": "text",
+          "label": "MEDICARE #",
+          "persona_key": "medicare"
+        },
+        "medicaid": {
+          "type": "text",
+          "label": "MEDICAID #",
+          "persona_key": "medicaid"
+        },
+        "num_dependents": {
+          "type": "text",
+          "label": "# OF DEPENDENTS (UNDER 18)",
+          "persona_key": "num_dependents"
+        }
+      },
+      "emergency_contact": {
+        "emerg_contact": {
+          "type": "text",
+          "label": "EMERGENCY CONTACT",
+          "persona_key": "emerg_contact"
+        },
+        "emerg_rel": {
+          "type": "text",
+          "label": "RELATIONSHIP",
+          "persona_key": "emerg_rel"
+        },
+        "emerg_addr_num": {
+          "type": "text",
+          "label": "EMERGENCY ADDRESS (NUMBER)",
+          "persona_key": "emerg_addr_num"
+        },
+        "emerg_addr_street": {
+          "type": "text",
+          "label": "EMERGENCY ADDRESS (STREET)",
+          "persona_key": "emerg_addr_street"
+        },
+        "emerg_addr_apt": {
+          "type": "text",
+          "label": "EMERGENCY ADDRESS (APT. #)",
+          "persona_key": "emerg_addr_apt"
+        },
+        "emerg_phone": {
+          "type": "text",
+          "label": "EMERGENCY TELEPHONE",
+          "persona_key": "emerg_phone"
+        },
+        "emerg_city": {
+          "type": "text",
+          "label": "EMERGENCY CITY",
+          "persona_key": "emerg_city"
+        },
+        "emerg_state": {
+          "type": "text",
+          "label": "EMERGENCY STATE",
+          "persona_key": "emerg_state"
+        },
+        "emerg_zip": {
+          "type": "text",
+          "label": "EMERGENCY ZIP",
+          "persona_key": "emerg_zip"
+        }
+      },
+      "financial_information": {
+        "gross_self": {
+          "type": "text",
+          "label": "GROSS (SELF) INCOME $",
+          "persona_key": "gross_self"
+        },
+        "self_weekly": {
+          "type": "checkbox",
+          "label": "SELF - WEEKLY",
+          "persona_key": "self_pay_frequency",
+          "checked_when": "weekly"
+        },
+        "self_biweekly": {
+          "type": "checkbox",
+          "label": "SELF - BI WEEKLY",
+          "persona_key": "self_pay_frequency",
+          "checked_when": "biweekly"
+        },
+        "self_monthly": {
+          "type": "checkbox",
+          "label": "SELF - MONTHLY",
+          "persona_key": "self_pay_frequency",
+          "checked_when": "monthly"
+        },
+        "gross_spouse": {
+          "type": "text",
+          "label": "GROSS (SPOUSE) INCOME $",
+          "persona_key": "gross_spouse"
+        },
+        "spouse_weekly": {
+          "type": "checkbox",
+          "label": "SPOUSE - WEEKLY",
+          "persona_key": "spouse_pay_frequency",
+          "checked_when": "weekly"
+        },
+        "spouse_biweekly": {
+          "type": "checkbox",
+          "label": "SPOUSE - BI WEEKLY",
+          "persona_key": "spouse_pay_frequency",
+          "checked_when": "biweekly"
+        },
+        "spouse_monthly": {
+          "type": "checkbox",
+          "label": "SPOUSE - MONTHLY",
+          "persona_key": "spouse_pay_frequency",
+          "checked_when": "monthly"
+        },
+        "annual_income_internal": {
+          "type": "text",
+          "label": "FOR INTERNAL USE ONLY: ANNUAL INCOME",
+          "persona_key": "total_annual_income"
+        }
+      },
+      "signatures": {
+        "patient_signature": {
+          "type": "text",
+          "label": "SIGNATURE OF PATIENT / PATIENT REPRESENTATIVE",
+          "persona_key": null
+        },
+        "counselor_signature": {
+          "type": "text",
+          "label": "SIGNATURE OF FINANCIAL COUNSELOR",
+          "persona_key": null
+        }
+      }
+    }
+  }
+}
