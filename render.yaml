@@ -1,0 +1,16 @@
+# Render Blueprint – Generations Covered API
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: generations-covered-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m api.server
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: PORT
+        value: "10000"   # Render sets this automatically; listed for clarity
+    healthCheckPath: /health
