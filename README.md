@@ -104,8 +104,8 @@ console.log(data);
 ## Project Structure
 
 ```
-generations-covered-api/
-├── api/
+api/
+├── backend/
 │   ├── __init__.py
 │   ├── hospital_service.py   # Eligibility engine + data loading
 │   ├── server.py             # HTTP server (stdlib)
